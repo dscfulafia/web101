@@ -17,7 +17,9 @@
 
   <!-- Theme CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
-
+  <style type="text/css">
+    h2{color: #000000;}
+  </style>
 </head>
 
 <body id="page-top">
@@ -33,7 +35,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Start learning</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Enroll</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resources">Resources</a>
@@ -70,7 +72,7 @@
     <div class="container">
 
       <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Start Learning today..!!</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Enroll now..!!</h2>
       <br>
 
       <!-- Portfolio Grid Items -->
@@ -81,8 +83,8 @@
         <div class="col-lg-4">
           <h4><u>STEPS TO ENROLL FOR THIS WORKSHOP</u></h4>
           <ol>
-            <li>Register to enroll by filling the form provided on this page</li>
-            <li>You will instantly receive whatsapp group invite link in your email</li>
+            <li>Fill the form provided on this page</li>
+            <li>You will instantly receive whatsapp group invitation link in your email</li>
             <li>You will be also receive link to the resources</li>
             <li>Read through the resources and complete all tasks and project</li>
             <li>Successful participants will get gifts :-)</li>
@@ -113,8 +115,9 @@
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">    
             </div>
-            <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
-            <h2>HTML5</h2>
+            <a href="#HTML5">
+            <img class="img-fluid" src="img/portfolio/cabin.png" alt="HTML5" style="width: 300px;height: 300px">
+          </a>
           </div>
         </div>
 
@@ -123,8 +126,9 @@
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-ch-100 w-100">
             </div>
-            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
-            <h2>CSS3</h2>
+            <a href="#CSS3">
+            <img class="img-fluid" src="img/portfolio/cake.png" alt="CSS3" style="width: 200px;height: 300px">
+          </a>
           </div>
         </div>
 
@@ -133,8 +137,10 @@
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
             </div>
-            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+            <a href="https://github.com/dscfulafia/web101/tasks" target="_blank">
             <h2>TASKS/PROJECT</h2>
+            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+          </a>
           </div>
         </div>
       </div>
@@ -149,33 +155,27 @@
 
         <!-- Footer Location -->
         <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">2215 John Daniel Drive
-            <br>Clark, MO 65243</p>
+          <h4 class="text-uppercase mb-4">Supported by:</h4>
+          <p class="lead mb-0">Developer Student Clubs</p>
+          <p class="lead mb-0">NACOSS FULafia</p>
         </div>
 
         <!-- Footer Social Icons -->
         <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-facebook-f"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
+          <h4 class="text-uppercase mb-4">Get in touch</h4>
+
+          <a class="btn btn-outline-light btn-social mx-1" href="http://twitter.com/dscfulafia">
             <i class="fab fa-fw fa-twitter"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-linkedin-in"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-dribbble"></i>
+          <a class="btn btn-outline-light btn-social mx-1" href="mailto:dscfulafia@gmail.com">
+            <i class="fab fa-fw fa fa-envelop"></i>
           </a>
         </div>
 
         <!-- Footer About Text -->
         <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">About Freelancer</h4>
-          <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+          <h4 class="text-uppercase mb-4">Disclaimer</h4>
+          <p class="lead mb-0">DSC FULafia is an indepedent group. Our activities and opinions here should in no way be linked to Google, the corporation. Read more about the <a target="_blank" href="https://developers.google.com/community/dsc">DSC program </a>.</p>
         </div>
 
       </div>
@@ -185,7 +185,7 @@
   <!-- Copyright Section -->
   <section class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; Your Website 2019</small>
+      <small>Copyright &copy; DSC FULafia 2019</small>
     </div>
   </section>
 
@@ -194,125 +194,6 @@
     <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
       <i class="fa fa-chevron-up"></i>
     </a>
-  </div>
-
-  <!-- Portfolio Modals -->
-
-  <!-- Portfolio Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cabin.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cake.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 
   <!-- Bootstrap core JavaScript -->
